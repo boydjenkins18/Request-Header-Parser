@@ -1,0 +1,83 @@
+body {
+  height: 100%;
+  margin: 0;
+  min-width: 610px;
+  ;
+}
+
+h1 {
+  text-align: center;
+}
+
+#exUsage li p {
+  background: rgba(149, 165, 166, 0.3);
+  padding-left: 5px;
+  color: #e74c3c;
+  width: 195px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 5%;
+}
+
+#exUsage h3 {
+  width: 200px;
+}
+
+#exUsage li {
+  width: 250px;
+}
+
+h4 {
+  text-align: center;
+  width: 195px;
+}
+
+button {
+  width: 195px;
+}
+
+#exInfo {
+  width: 400px;
+  background: rgba(149, 165, 166, 0.3);
+  position: relative;
+  left: 50%;
+  margin-left: -17.5%;
+  color: #e74c3c;
+  border-radius: 2%;
+}
+
+#exInfo p {
+  padding: 0 10px;
+}
+
+.info {
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+#cpu {
+  margin-left: 40px;
+}
+
+#exUsage h3 {
+  position: relative;
+  left: 50%;
+  margin-left: -40%
+}
+
+#exUsage li {
+  position: relative;
+  left: 50%;
+  margin-left: -12.5%
+}
+
+#exOutput h3 {
+  position: relative;
+  left: 50%;
+  margin-left: -40%;
+  width: 200px;
+}
+
+.container {
+  margin-top: 20px;
+}

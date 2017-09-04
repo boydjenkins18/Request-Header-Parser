@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Request Header Parser Microservice</title>
+  <link rel="stylesheet" href="public/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+</head>
+
+<body>
+
+<div class='container well'>
+
+  <h1>API Basejump: Request Header Parser Microservice</h1>
+
+  <h3>Usage:</h3>
+
+  <ul>
+    <li>get the IP address, language, operating system and CPU information for my browser</li>
+  </ul>
+
+<div id="exUsage">
+
+
+  <h3>Example Usage:</h3>
+  <ul>
+    <li>
+      <p>http://localhost:10000/whoami</p> <h4>OR</h4> <button>Click Here</button>
+    </li>
+  </ul>
+
+</div>
+
+
+<div id="exOutput">
+
+  <h3>Example Output: </h3>
+
+  <div id='exInfo'>
+
+
+    <p>{</p>
+    <p class='info'>ipaddress: (Your ipaddress:IPv4 or IPv6),</p>
+    <p class='info'>language: "en-US"</p>
+    <p class='info'>software: "Windows_NT; win32; x64",</p>
+    <p id='cpu'>cpu: "Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz"</p>
+    <p>}</p>
+
+
+  </div>
+
+</div>
+
+</div>
+
+<script src='public/scripts/lib/jquery-3.2.1.js'></script>
+<script src=public/scripts/app.js></script>
+</body>
+
+</html>
