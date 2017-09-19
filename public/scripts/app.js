@@ -2,7 +2,7 @@
 
 
 $('button').on('click',function(){
-  window.open('http://localhost:10000/whoami')
+  window.open('https://enigmatic-shelf-52730.herokuapp.com/whoami')
 })
 
 
